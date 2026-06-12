@@ -13,4 +13,8 @@ Import this repository into Vercel as a static site. No build command is require
 
 ## Analytics
 
-The app includes the Vercel Web Analytics script for page-view tracking. After importing the repository into Vercel, enable Web Analytics for the project in Vercel so views are collected.
+The app includes the Vercel Web Analytics script for page-view tracking.
+
+Analytics dashboard:
+
+- [fhir-patient-data-exploration analytics](https://vercel.com/barrywangbuilder-2768s-projects/fhir-patient-data-exploration/analytics?environment=all)
