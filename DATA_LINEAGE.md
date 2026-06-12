@@ -27,10 +27,7 @@ The final website is based on outputs from:
 
 This notebook starts from the raw FHIR export, normalizes patient journeys, builds the analytical model, and writes the final processed CSV outputs used by the website generator.
 
-Earlier notebooks were exploratory and are not the primary source for the final website:
-
-- `notebooks/abbycare_health_outcomes_analysis.ipynb`
-- `notebooks/abbycare_patient_journey_basetable.ipynb`
+Earlier exploratory notebooks were removed during workspace cleanup because the final website only depends on the notebook above.
 
 ## Raw Data Source
 
@@ -136,7 +133,7 @@ Final QA summary:
 Regression tests run for the final workflow:
 
 ```text
-python -m unittest tests.test_abbycare_final_analysis tests.test_abbycare_notebook -v
+python -m unittest tests.test_abbycare_final_analysis -v
 ```
 
 Last verified result:
@@ -149,4 +146,3 @@ OK
 ## Privacy Note
 
 This static website repository contains only the rendered report app and documentation. It does not include the raw FHIR NDJSON files or patient-level processed CSV data.
-
